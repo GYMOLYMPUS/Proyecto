@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>CODIGO DE BARRAS</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/tooplate-gymso-style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	
+
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="css/tooplate-gymso-style.css">
+<!--
+Tooplate 2119 Gymso Fitness
+https://www.tooplate.com/view/2119-gymso-fitness
+-->
+</head>
+<body>
+
+<section class="form-register">
+	<div>
+	<h4>CODIGO DE BARRAS</h4>
+	<form action="sesionad.php" method="GET">
+	<input class="controls" type="text" name="id" id="id" placeholder="Ingrese su Documento">
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+	<a href=""><input class="botons" type="submit" value="Ingresar"></a>
+	</form>
+</div>
+</section>
+
+
+ <!-- SCRIPTS -->
+ <script src="js/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/smoothscroll.js"></script>
+ <script src="js/custom.js"></script>
+</body>
+</html>
